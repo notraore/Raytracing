@@ -1,8 +1,8 @@
 Welcome to 1/4 de cerle's RT !<br />
 
 
-usage : `make`
-`./rt scenes/[your map]`
+usage : `make`<br />
+`./rt scenes/[your map]`<br />
 
 with :<br />
 	- Refraction, reflection, transparency<br />
