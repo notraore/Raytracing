@@ -6,55 +6,54 @@ Welcome to 1/4 de cerle's RT !<br />
 usage : `make`<br />
 `./rt scenes/[your map]`<br />
 
-with :<br />
-	- Refraction, reflection, transparency<br />
-	- Anti-Aliasing, pixelisation<br />
-	- Live edition, copy, add, delete object<br />
-	- import 3D object<br />
-	- Save scene file, screenshot<br />
-	- texturing, perturbation<br />
-	- Stereoscopy, ambient, occlusion, cel-shading, filterq<br />
+<h2>Introducing to :</h2><br />
+- Refraction, reflection, transparency<br />
+- Anti-Aliasing, pixelisation<br />
+- Live edition, copy, add, delete object<br />
+- import 3D object<br />
+- Save scene file, screenshot<br />
+- texturing, perturbation<br />
+- Stereoscopy, ambient, occlusion, cel-shading, filterq<br />
 
  - Commands -<br />
 
- Mouvement : <br />
- 	- Translate : W, A, S, D<br />
- 	- Rotate : UP, LEFT, DOWN, RIGHT<br />
- 	- Lift : Q, E<br />
- 	- Pivot : Z, X<br />
+ <h2>Mouvement :</h2> <br />
+- Translate : W, A, S, D<br />
+- Rotate : UP, LEFT, DOWN, RIGHT<br />
+- Lift : Q, E<br />
+- Pivot : Z, X<br />
 
- Render mode : <br />
- 	- PIXELISATION : SPACE<br />
- 	- EDIT MODE : ENTER<br />
- 	- ANTI-ALIASING : R<br />
- 	- STEREOSCOPIC : P<br />
- 	- AMBIENT OCCLUSION : T<br />
- 	- CEL-SHADING : C<br />
- 	- FILTER : 0, 1, 2, 3, 4...<br />
+ <h2>Render mode : </h2><br />
+- PIXELISATION : SPACE<br />
+- EDIT MODE : ENTER<br />
+- ANTI-ALIASING : R<br />
+- STEREOSCOPIC : P<br />
+- AMBIENT OCCLUSION : T<br />
+- CEL-SHADING : C<br />
+- FILTER : 0, 1, 2, 3, 4...<br />
 
- Save / import :<br />
- 	- SAVE IMAGE : O<br />
- 	- SAVE SCENE : J<br />
- 	- LOAD OBJECT : K<br />
- 	- LOAD SCENE : L<br />
- 	- COPY / PASTE OBJECT : LMB<br />
- 	- DELETE OBJECT: RMB<br />
+ <h2>Save / import :</h2><br />
+- SAVE IMAGE : O<br />
+- SAVE SCENE : J<br />
+- LOAD OBJECT : K<br />
+- LOAD SCENE : L<br />
+- COPY / PASTE OBJECT : LMB<br />
+- DELETE OBJECT: RMB<br />
 
- Others :<br />
- 	- RANDOM PERLIN : M<br />
- 	- REMOVE AMBIENT : I<br />
- 	- ADD RECURSION : U<br />
- 	- STRECH TEXTURE : =, /<br />
- 	- ROTATE TEXTURE : -, +<br />
+<h3> Others :</h3><br />
+- RANDOM PERLIN : M<br />
+- REMOVE AMBIENT : I<br />
+- ADD RECURSION : U<br />
+- STRECH TEXTURE : =, /<br />
+- ROTATE TEXTURE : -, +<br />
 
-
- - Files formats - <br />
+<h2> Files formats </h2> <br />
 
  3D objects must be set in .obj format,<br />
  Textures must be set on .xpm format,<br />
  Description scene must be set on .rt format.<br />
 
- - Input file format - <br />
+ <h2>Input file format</h2><br />
 
 The scene and all the object are describe between '{' and '}'.<br />
 The objects set by our RT are : "plane", "sphere", "cone", "cylinder",<br />
@@ -63,7 +62,7 @@ For the lights it's : "light", "area_light".<br />
 
 Check in the scenes/basic directory for the complete format of all objects.<br />
 
-Here is a preview of the program :<br />
+<h2>Here is a preview of the program :</h2><br />
 
 ![screenshot_392018_171118](https://user-images.githubusercontent.com/27351943/37294364-f202237c-2615-11e8-868e-4aa78b797bec.png)
 
