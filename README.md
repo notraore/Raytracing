@@ -1,64 +1,64 @@
-Welcome to 1/4 de cerle's RT !
+Welcome to 1/4 de cerle's RT !<br />
 
-with :
-	- Refraction, reflection, transparency
-	- Anti-Aliasing, pixelisation
-	- Live edition, copy, add, delete object
-	- import 3D object
-	- Save scene file, screenshot
-	- texturing, perturbation
-	- Stereoscopy, ambient, occlusion, cel-shading, filterq
+with :<br />
+	- Refraction, reflection, transparency<br />
+	- Anti-Aliasing, pixelisation<br />
+	- Live edition, copy, add, delete object<br />
+	- import 3D object<br />
+	- Save scene file, screenshot<br />
+	- texturing, perturbation<br />
+	- Stereoscopy, ambient, occlusion, cel-shading, filterq<br />
 
- - Commands -
+ - Commands -<br />
 
- Mouvement : 
- 	- Translate : W, A, S, D
- 	- Rotate : UP, LEFT, DOWN, RIGHT
- 	- Lift : Q, E
- 	- Pivot : Z, X
+ Mouvement : <br />
+ 	- Translate : W, A, S, D<br />
+ 	- Rotate : UP, LEFT, DOWN, RIGHT<br />
+ 	- Lift : Q, E<br />
+ 	- Pivot : Z, X<br />
 
- Render mode : 
- 	- PIXELISATION : SPACE
- 	- EDIT MODE : ENTER
- 	- ANTI-ALIASING : R
- 	- STEREOSCOPIC : P
- 	- AMBIENT OCCLUSION : T
- 	- CEL-SHADING : C
- 	- FILTER : 0, 1, 2, 3, 4...
+ Render mode : <br />
+ 	- PIXELISATION : SPACE<br />
+ 	- EDIT MODE : ENTER<br />
+ 	- ANTI-ALIASING : R<br />
+ 	- STEREOSCOPIC : P<br />
+ 	- AMBIENT OCCLUSION : T<br />
+ 	- CEL-SHADING : C<br />
+ 	- FILTER : 0, 1, 2, 3, 4...<br />
 
- Save / import :
- 	- SAVE IMAGE : O
- 	- SAVE SCENE : J
- 	- LOAD OBJECT : K
- 	- LOAD SCENE : L
- 	- COPY / PASTE OBJECT : LMB
- 	- DELETE OBJECT: RMB
+ Save / import :<br />
+ 	- SAVE IMAGE : O<br />
+ 	- SAVE SCENE : J<br />
+ 	- LOAD OBJECT : K<br />
+ 	- LOAD SCENE : L<br />
+ 	- COPY / PASTE OBJECT : LMB<br />
+ 	- DELETE OBJECT: RMB<br />
 
- Others :
- 	- RANDOM PERLIN : M
- 	- REMOVE AMBIENT : I
- 	- ADD RECURSION : U
- 	- STRECH TEXTURE : =, /
- 	- ROTATE TEXTURE : -, +
+ Others :<br />
+ 	- RANDOM PERLIN : M<br />
+ 	- REMOVE AMBIENT : I<br />
+ 	- ADD RECURSION : U<br />
+ 	- STRECH TEXTURE : =, /<br />
+ 	- ROTATE TEXTURE : -, +<br />
 
 
 
- - Files formats - 
+ - Files formats - <br />
 
- 3D objects must be set in .obj format,
- Textures must be set on .xpm format,
- Description scene must be set on .rt format.
+ 3D objects must be set in .obj format,<br />
+ Textures must be set on .xpm format,<br />
+ Description scene must be set on .rt format.<br />
 
- - Input file format - 
+ - Input file format - <br />
 
-The scene and all the object are describe between '{' and '}'.
-The objects set by our RT are : "plane", "sphere", "cone", "cylinder",
-"disk", "triangle", "quad", "pyramide", "cube", "glass", "paraboloid".
-For the lights it's : "light", "area_light".
+The scene and all the object are describe between '{' and '}'.<br />
+The objects set by our RT are : "plane", "sphere", "cone", "cylinder",<br />
+"disk", "triangle", "quad", "pyramide", "cube", "glass", "paraboloid".<br />
+For the lights it's : "light", "area_light".<br />
 
-Check in the scenes/basic directory for the complete format of all objects.	
+Check in the scenes/basic directory for the complete format of all objects.<br />	
 
-Here is a preview of the program :
+Here is a preview of the program :<br />
 
 ![image 3](https://user-images.githubusercontent.com/27351943/37253487-96c84d94-2532-11e8-8616-81b5ee1ac6e3.png)
 
