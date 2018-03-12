@@ -1,5 +1,9 @@
 Welcome to 1/4 de cerle's RT !<br />
 
+
+usage : `make`
+`./rt scenes/[your map]`
+
 with :<br />
 	- Refraction, reflection, transparency<br />
 	- Anti-Aliasing, pixelisation<br />
@@ -42,7 +46,6 @@ with :<br />
  	- ROTATE TEXTURE : -, +<br />
 
 
-
  - Files formats - <br />
 
  3D objects must be set in .obj format,<br />
@@ -56,9 +59,11 @@ The objects set by our RT are : "plane", "sphere", "cone", "cylinder",<br />
 "disk", "triangle", "quad", "pyramide", "cube", "glass", "paraboloid".<br />
 For the lights it's : "light", "area_light".<br />
 
-Check in the scenes/basic directory for the complete format of all objects.<br />	
+Check in the scenes/basic directory for the complete format of all objects.<br />
 
 Here is a preview of the program :<br />
+
+![screenshot_392018_171118](https://user-images.githubusercontent.com/27351943/37294364-f202237c-2615-11e8-868e-4aa78b797bec.png)
 
 ![image 3](https://user-images.githubusercontent.com/27351943/37253487-96c84d94-2532-11e8-8616-81b5ee1ac6e3.png)
 
