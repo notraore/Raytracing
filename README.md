@@ -7,46 +7,52 @@ usage : `make`<br />
 `./rt scenes/[your map]`<br />
 
 <h2>Introducing to :</h2><br />
-- Refraction, reflection, transparency<br />
-- Anti-Aliasing, pixelisation<br />
-- Live edition, copy, add, delete object<br />
-- import 3D object<br />
-- Save scene file, screenshot<br />
-- texturing, perturbation<br />
-- Stereoscopy, ambient, occlusion, cel-shading, filterq<br />
-
+<ul>
+<li>Refraction, reflection, transparency</li><br />
+<li>Anti-Aliasing, pixelisation</li><br />
+<li>Live edition, copy, add, delete object, import 3D object</li><br />
+<li>Save scene file, screenshot</li><br />
+<li>texturing, perturbation</li><br />
+<li>Stereoscopy, ambient, occlusion, cel-shading, filterq</li><br />
+</ul>
  - Commands -<br />
 
  <h2>Mouvement :</h2> <br />
-- Translate : W, A, S, D<br />
-- Rotate : UP, LEFT, DOWN, RIGHT<br />
-- Lift : Q, E<br />
-- Pivot : Z, X<br />
+ <ul>
+  <li>Translate : W, A, S, D</li><br />
+<li>Rotate : UP, LEFT, DOWN, RIGHT</li><br />
+<li> Lift : Q, E</li><br />
+<li>Pivot : Z, X</li><br />
+</ul>
 
  <h2>Render mode : </h2><br />
-- PIXELISATION : SPACE<br />
-- EDIT MODE : ENTER<br />
-- ANTI-ALIASING : R<br />
-- STEREOSCOPIC : P<br />
-- AMBIENT OCCLUSION : T<br />
-- CEL-SHADING : C<br />
-- FILTER : 0, 1, 2, 3, 4...<br />
-
+ <ul>
+<li>PIXELISATION : SPACE</li><br />
+<li>EDIT MODE : ENTER</li><br />
+<li>ANTI-ALIASING : R</li><br />
+<li>STEREOSCOPIC : P</li><br />
+<li>AMBIENT OCCLUSION : T</li><br />
+<li>CEL-SHADING : C</li><br />
+<li>FILTER : 0, 1, 2, 3, 4...</li><br />
+</ul>
  <h2>Save / import :</h2><br />
-- SAVE IMAGE : O<br />
-- SAVE SCENE : J<br />
-- LOAD OBJECT : K<br />
-- LOAD SCENE : L<br />
-- COPY / PASTE OBJECT : LMB<br />
-- DELETE OBJECT: RMB<br />
+ <ul>
+<li>SAVE IMAGE : O</li><br />
+<li>SAVE SCENE : J</li><br />
+<li>LOAD OBJECT : K</li><br />
+<li>LOAD SCENE : L</li><br />
+<li>COPY / PASTE OBJECT : LMB</li><br />
+<li>DELETE OBJECT: RMB</li><br />
+ </ul>
 
 <h3> Others :</h3><br />
-- RANDOM PERLIN : M<br />
-- REMOVE AMBIENT : I<br />
-- ADD RECURSION : U<br />
-- STRECH TEXTURE : =, /<br />
-- ROTATE TEXTURE : -, +<br />
-
+<ul>
+<li>RANDOM PERLIN : M</li><br />
+<li>REMOVE AMBIENT : I</li><br />
+<li>ADD RECURSION : U</li><br />
+<li>STRECH TEXTURE : =, /</li><br />
+<li>ROTATE TEXTURE : -, +</li><br />
+</ul>
 <h2> Files formats </h2> <br />
 
  3D objects must be set in .obj format,<br />
